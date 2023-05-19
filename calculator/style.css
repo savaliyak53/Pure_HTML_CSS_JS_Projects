@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&family=Tilt+Prism&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 300px;
+    height: 500px;
+    box-shadow: 4px 4px 30px #080808;
+    border-radius: 12px;
+    background-color: #080808;
+    overflow: hidden;
+
+}
+
+form input {
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #1f0202;
+    text-align: right;
+    pointer-events: none;
+    color: white;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+button {
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid #2d0101;
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-yellow {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.btn-grey {
+    background-color: grey;
+    color: white;
+}
+
+.btn-equal {
+    background-color: green;
+    color: white;
+}
+
+.btn-clear {
+    background-color: rgb(234, 58, 18);
+    color: white;
+}

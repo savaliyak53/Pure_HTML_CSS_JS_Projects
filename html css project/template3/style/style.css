@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.navBar ul {
+  font-size: 1.5rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem 1.5rem;
+  padding: 2rem 4rem;
+}
+.navBar ul .list a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.navBar ul .list a:hover {
+  color: rgb(152, 152, 254);
+  border: 2px solid white;
+  border-radius: 20%;
+  padding: 0.5rem;
+}
+
+.content {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(251, 251, 154);
+  text-align: center;
+  padding: 5rem;
+}
+.content h2 {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+.content p {
+  font-size: 2rem;
+}
+
+.footer {
+  width: 100%;
+  height: 188px;
+  background-color: rgb(53, 53, 2);
+  text-align: center;
+}
+.footer p {
+  font-size: 4rem;
+  color: azure;
+  padding: 4rem;
+}/*# sourceMappingURL=style.css.map */

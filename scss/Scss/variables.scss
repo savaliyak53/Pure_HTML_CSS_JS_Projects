@@ -1,0 +1,7 @@
+@mixin making($rem, $pad, $blu) {
+    border: 2px solid rgb(241, 57, 57);
+    margin: $rem;
+    outline: 5px solid rgb(235, 129, 129);
+    padding: $pad;
+    color: $blu ;
+}
